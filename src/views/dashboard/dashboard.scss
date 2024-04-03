@@ -1,0 +1,224 @@
+.wrapper-wallet {
+  width: 100%;
+  height: 100vh;
+  font-family: "Nunito";
+  position: relative;
+  background: #fff;
+  padding-bottom: 80px;
+
+  .__header {
+    position: relative;
+    padding-top: 30px;
+    min-height: 190px;
+    height: 270px;
+    background: linear-gradient(135.54deg, #2b88d8 -0.96%, #001f78 100%);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #fff;
+    padding-right: 22px;
+    padding-left: 22px;
+
+    .__header_title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      align-content: center;
+    }
+
+    h3 {
+      font-weight: 600;
+      font-size: 32px;
+    }
+
+    p {
+      font-weight: 700;
+      color: #a8addd;
+      font-size: 14px;
+      line-height: 18px;
+      margin-bottom: 3px;
+    }
+
+    .__menu {
+      position: absolute;
+      width: 340px;
+      height: 88px;
+      max-width: 90%;
+      background: #ffffff;
+      box-shadow: 0 5px 10px rgba(52, 62, 224, 0.1);
+      border-radius: 16px;
+      bottom: -45px;
+      padding: 18px 20px;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+
+      li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p {
+          color: #fff;
+          font-size: 10px;
+        }
+      }
+    }
+
+    .__my_money {
+      padding-top: 60px;
+
+      .__money {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -1.6px;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+      }
+
+      .__text_money {
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: -0.4px;
+        color: #f6f7f8;
+      }
+    }
+  }
+
+  .__main {
+    margin-top: 75px;
+    width: 100%;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 100px;
+
+    .__header_main {
+      .__header_1 {
+        font-weight: bolder !important;
+        font-size: 20px;
+        line-height: 28px;
+        line-height: 28px;
+        color: #19163d;
+      }
+
+      .__header_2 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #19163d;
+      }
+
+      .__header_3 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #9896a8;
+      }
+    }
+
+    .feature-list {
+      margin-left: -8px;
+      background: #ffffff;
+      min-height: 190px;
+      border-radius: 33px 32px 0px 0px;
+
+      .feature-item {
+        width: 60px;
+        height: 60px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+      }
+
+      .text__feature-item {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        color: #19163d;
+      }
+    }
+
+    .slide {
+      h3 {
+        color: #243972;
+        font-weight: 700;
+      }
+
+      .mySwiper {
+        .swiper-wrapper {
+          height: 100vh !important;
+        }
+      }
+    }
+  }
+
+  .list_dot {
+    position: absolute;
+    margin-left: -10px;
+    display: flex;
+  }
+
+  .dot {
+    width: 2px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: 15px;
+  }
+}
+
+.__icon_menu {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 16px;
+  color: #466ee0 !important;
+  text-align: center;
+}
+
+.col_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-pagination-bullets {
+  bottom: 0 !important;
+}
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 0 !important;
+}
+.notification-list {
+  max-height: 50vh;
+  overflow: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.not-read {
+  position: absolute;
+  background: red;
+  font-size: 12px;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -9px;
+  top: -7px;
+}

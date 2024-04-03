@@ -1,0 +1,109 @@
+.wrapper-wallet {
+  width: 100%;
+  padding: 28px;
+  font-family: "Poppins";
+}
+.__header {
+  margin-bottom: 97px;
+
+  .nav-left {
+    .goback {
+      background: #ffffff;
+      box-shadow: 0px 1px 2px rgba(8, 15, 24, 0.1);
+      border-radius: 12px;
+      margin-right: 12px;
+      padding: 11px 14px;
+    }
+    h3 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 28px;
+      color: #202046;
+    }
+  }
+}
+
+.__main {
+  width: 100%;
+  height: 100%;
+
+  .title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #19163d;
+    margin-top: 50px;
+    margin-bottom: 4px;
+  }
+
+  .phone {
+    margin-bottom: 15.08px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #19163d;
+  }
+
+  .card-content {
+    box-shadow: 0px 4px 10px rgba(56, 68, 251, 0.08);
+    border-radius: 12px;
+    padding: 16px 37px 24px 37px;
+    margin-bottom: 36px;
+    position: relative;
+
+    .brand {
+      position: absolute;
+      top: -35px;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 0 auto;
+    }
+
+    .qr-code {
+      width: fit-content;
+      margin: 0 auto;
+      border: 2.46073px solid #466ee0;
+      border-radius: 14.7644px;
+      padding: 10px;
+      margin-bottom: 18.85px;
+      img {
+        width: 250px;
+        height: 250px;
+      }
+    }
+
+    .actions {
+      width: 100%;
+      .add-amount {
+        width: 100%;
+        margin: 0 auto;
+        color: #fff;
+        font-weight: 600;
+        font-size: 12px;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135.54deg, #4fb4ed -0.96%, #343edf 100%);
+        border-radius: 16px;
+        img {
+          margin-right: 12px;
+        }
+      }
+    }
+
+    .wrapper-amount {
+      margin-bottom: 52px;
+
+      .amount {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        color: #19163d;
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+.wrapper-wallet {
+  width: 100%;
+  height: auto;
+  padding: 0 23px;
+  font-family: "Poppins";
+  color: #000;
+
+  .__header {
+    padding-top: 27.67px;
+    margin-bottom: 36px;
+    .btn-back {
+      position: absolute;
+      left: 23px;
+    }
+    h3 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+
+  .__main {
+    .authentications {
+      margin-bottom: 24px;
+      h3 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #202046;
+        margin-bottom: 8px;
+      }
+
+      .__content {
+        li {
+          display: flex;
+          align-items: center;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px;
+          color: #9896a8;
+          .icon {
+            margin-right: 9.32px;
+          }
+        }
+      }
+    }
+    .card-options {
+      .box-item {
+        border-radius: 16px;
+        margin-bottom: 16px;
+        padding: 1px;
+        .__item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          background: #f6f7fe;
+          padding: 16px 32px;
+          border: 1px solid #fff;
+          border-radius: 15px;
+
+          .avatar {
+            height: 72px;
+            margin-bottom: 16px;
+
+            img {
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+
+          .title {
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #5279e7;
+          }
+
+          .description {
+            font-weight: 400;
+            font-size: 14px;
+            padding: 0 16px;
+          }
+        }
+        .active {
+          background: #ffffff;
+          box-shadow: 0px 5px 10px rgba(52, 62, 224, 0.1);
+        }
+      }
+
+      .box-active {
+        background-image: linear-gradient(to right bottom, #4fb4ed, #343edf);
+      }
+    }
+  }
+
+  .btn-confirm {
+    width: 100%;
+    bottom: 100px;
+    padding: 16px 0;
+    color: #fff;
+    background: linear-gradient(135.54deg, #4fb4ed -0.96%, #343edf 100%);
+    margin-top: 16px;
+    border-radius: 24px;
+  }
+
+  .disabled {
+    background: #bdbdbd;
+  }
+}

@@ -1,0 +1,101 @@
+.__item {
+  font-family: "Nunito";
+
+  .transaction_card {
+    margin-top: 5px;
+    padding: 12px;
+    width: 100%;
+    min-height: 75px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(56, 68, 251, 0.08);
+    border-radius: 12px;
+    display: flex;
+
+    .transaction_icon {
+      display: flex;
+      align-items: center;
+      justify-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      background: #f3efff;
+      box-shadow: 0 12px 30px rgba(20, 40, 80, 0.05);
+      border-radius: 12px;
+    }
+
+    .transaction_content {
+      margin-left: 10px;
+      width: calc(80%);
+
+      .transaction_name_money {
+        display: flex;
+        justify-items: center;
+        justify-content: space-between;
+
+        .transaction_name {
+          font-style: normal;
+          //font-weight: 400;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 24px;
+          color: #19163d;
+        }
+
+        .transaction_money_red {
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 20px;
+          text-align: right;
+          color: #ff4a4a;
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+        }
+
+        .transaction_money_green {
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 18px;
+          text-align: right;
+          color: #31d09a;
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+        }
+      }
+
+      .transaction_date_type {
+        margin-top: 5px;
+        display: flex;
+        justify-items: center;
+        justify-content: space-between;
+
+        .transaction_type {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 16px;
+          flex: none;
+          order: 1;
+          color: rgba(25, 22, 61, 0.8);
+          flex-grow: 0;
+        }
+
+        .text-notification {
+          .show-more {
+            font-size: 12px;
+            color: #466ee0;
+          }
+        }
+      }
+    }
+
+    .transaction_date {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 16px;
+      color: #466ee0;
+    }
+  }
+}

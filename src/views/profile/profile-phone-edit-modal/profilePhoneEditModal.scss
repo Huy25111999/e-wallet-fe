@@ -1,0 +1,170 @@
+ion-content {
+  --keyboard-offset: 0 !important;
+}
+:host ::ng-deep {
+  .item-native {
+    padding-inline-start: unset !important;
+  }
+}
+.card-form {
+  font-family: "Nunito";
+  height: 100%;
+  background: #ffffff;
+  .item-native {
+    border-left: unset;
+    border-right: 1px solid rgba(25, 22, 61, 0.45);
+    padding-inline-start: unset;
+  }
+  ion-item {
+    --background: white;
+    color: #313131;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .input-field {
+    background: #ffffff;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    mix-blend-mode: normal;
+    border-bottom: 1px solid rgba(22, 18, 64, 0.15);
+    box-shadow: unset;
+
+    input {
+      width: 100%;
+      padding: 14px 10px 13px 95px;
+      background: #fff;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      color: #313131;
+      &:focus {
+        outline: none;
+      }
+    }
+
+    ion-label {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 12px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      color: #313131;
+      border-right: 1px solid rgba(25, 22, 61, 0.45);
+      padding-right: 10px;
+      display: flex;
+    }
+  }
+
+  ion-button {
+    font-family: "Poppins";
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 40px;
+    width: 100%;
+    height: 58px;
+    --padding-start: 24px;
+    --padding-end: 24px;
+    --background: linear-gradient(135.54deg, #55adf8 -0.96%, #0f38a9 100%);
+    --border-radius: 24px;
+    --box-shadow: none;
+    text-transform: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #f9f9f9;
+  }
+}
+
+.animatedRequest {
+  animation-name: animatedRequest;
+  animation-duration: 0.5;
+}
+
+@keyframes animatedRequest {
+  0% {
+    transform: translate(0);
+  }
+  70% {
+    transform: translateX(-120%);
+  }
+  100% {
+    display: none !important;
+    transform: translateX(-120%);
+  }
+}
+
+.animatedConfirm {
+  animation-name: animatedConfirm;
+  animation-duration: 0.8s;
+}
+
+@keyframes animatedConfirm {
+  0% {
+    display: block !important;
+    transform: translate(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+ion-radio {
+  --border-radius: 4px;
+  --inner-border-radius: 4px;
+
+  --color: #ddd;
+  --color-checked: blue;
+}
+
+ion-radio.ios {
+  width: 20px;
+  height: 20px;
+
+  border: 2px solid #ddd;
+  border-radius: 4px;
+}
+
+.radio-checked.ios {
+  border-color: blue;
+}
+ion-loading.custom-loading {
+  --background: #e3edff;
+  --spinner-color: #1c6dff;
+  color: #1c6dff;
+}
+.error {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #eb5757 !important;
+}
+.d-flex {
+  display: flex;
+}
+.sub-header-otp {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9896a8;
+  .phone {
+    color: #343edf;
+    font-weight: 600;
+  }
+}
+.flag {
+  margin-right: 3px;
+}

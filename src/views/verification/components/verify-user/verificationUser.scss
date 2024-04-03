@@ -1,0 +1,30 @@
+.form-verify {
+  label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9896a8;
+    span {
+      color: red;
+    }
+  }
+  .btn-cornfirm {
+    width: 100%;
+    margin-top: 20px;
+    padding: 16px 0;
+    background: linear-gradient(135.54deg, #4fb4ed -0.96%, #343edf 100%);
+    border-radius: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #f9f9f9;
+  }
+
+  .field-item {
+    margin-right: 30px;
+  }
+  .disabled {
+    background: #bdbdbd;
+  }
+}

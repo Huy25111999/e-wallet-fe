@@ -1,0 +1,335 @@
+.wrapper-wallet {
+  padding: 22px;
+  width: 100%;
+  position: relative;
+}
+
+.button-back {
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(8, 15, 24, 0.1);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  height: 38px;
+  width: 38px;
+  justify-content: center;
+}
+
+.history_title {
+  margin-left: 15px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #202046;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.search {
+  padding: 10px 5px;
+  margin-top: 15px;
+  background: #ffffff;
+  box-shadow: 0 5px 10px rgba(52, 62, 224, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.icon_search {
+  margin-left: 15px;
+}
+
+.input_search {
+  margin-left: 5px;
+}
+
+.__banner-info {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  width: 100%;
+  height: 115px;
+  background-image: url("../../common/assets/icon/history/card_money.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.date_info {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.InSpendInfo {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+
+  .textInfo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 10px;
+  }
+
+  .inCome {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    justify-items: center;
+
+    .inComeMoney {
+      color: #23d288;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      margin-left: 10px;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+  }
+
+  .spending {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    justify-items: center;
+
+    .spendingMoney {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: #ff6a6a;
+      margin-left: 10px;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+  }
+}
+
+.__main_filter {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+
+  .card_filter {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background: #ffffff;
+    box-shadow: 2px 4px 20px 2px rgba(52, 62, 224, 0.15);
+    border-radius: 15px;
+  }
+
+  .active {
+    border: 1px solid #c8d5fb;
+  }
+
+  .filter_name {
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}
+
+.__main_content {
+  margin-top: 20px;
+
+  .no_transaction {
+    .__no_transaction_text {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #000000;
+    }
+  }
+
+  .has_transaction {
+    .transaction_card {
+      margin-top: 5px;
+      padding: 12px;
+      width: 100%;
+      height: 75px;
+      background: #ffffff;
+      box-shadow: 0 4px 10px rgba(56, 68, 251, 0.08);
+      border-radius: 12px;
+      display: flex;
+
+      .transaction_icon {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        background: #f3efff;
+        box-shadow: 0 12px 30px rgba(20, 40, 80, 0.05);
+        border-radius: 12px;
+      }
+
+      .transaction_content {
+        margin-left: 10px;
+        width: calc(80%);
+
+        .transaction_name_money {
+          display: flex;
+          justify-items: center;
+          justify-content: space-between;
+
+          .transaction_name {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #19163d;
+          }
+
+          .transaction_money_red {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 20px;
+            text-align: right;
+            color: #ff4a4a;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+          }
+
+          .transaction_money_green {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: right;
+            color: #31d09a;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+          }
+        }
+
+        .transaction_date_type {
+          margin-top: 5px;
+          display: flex;
+          justify-items: center;
+          justify-content: space-between;
+
+          .transaction_date {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 16px;
+            color: rgba(25, 22, 61, 0.8);
+          }
+
+          .transaction_type {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 16px;
+            text-align: right;
+            color: #466ee0;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.date_filter {
+  width: 100%;
+
+  .date_from {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+  }
+}
+
+.date_time_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+
+  .filter {
+    color: #000000 !important;
+  }
+}
+
+.date_time_text_filter {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.cycle_filter {
+  margin-top: -5px;
+  height: 45px;
+  background: transparent;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  text-align: center;
+}
+
+.text_filter {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.date_text_filter {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}

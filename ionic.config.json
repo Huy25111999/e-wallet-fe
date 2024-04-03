@@ -1,0 +1,7 @@
+{
+  "name": "e-wallet-fe",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

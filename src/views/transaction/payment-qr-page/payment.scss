@@ -1,0 +1,103 @@
+.wrapper-wallet {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins";
+  padding: 0 24px;
+  position: relative;
+
+  .__header {
+    padding-top: 28.74px;
+    margin-bottom: 81px;
+
+    .nav-left {
+      .goback {
+        background: #ffffff;
+        box-shadow: 0px 1px 2px rgba(8, 15, 24, 0.1);
+        border-radius: 12px;
+        margin-right: 12px;
+        padding: 11px 14px;
+      }
+      h3 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        color: #202046;
+      }
+    }
+  }
+
+  .__main {
+    .title {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #19163d;
+    }
+
+    .card-content {
+      box-shadow: 0px 4px 10px rgba(56, 68, 251, 0.08);
+      border-radius: 12px;
+      padding: 16px 37px 24px 37px;
+      margin-bottom: 36px;
+      .qr-code {
+        width: fit-content;
+        margin: 0 auto;
+        border: 2.46073px solid #466ee0;
+        border-radius: 14.7644px;
+        padding: 10px;
+        margin-bottom: 10.5px;
+        img {
+          width: 260px;
+          height: 260px;
+        }
+      }
+
+      .content {
+        margin: 0 20px;
+        .phone {
+          margin-bottom: 12px;
+        }
+        .wrapper-money {
+          .total-money {
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 24px;
+            text-align: center;
+            color: #23d288;
+            margin: 0 16px;
+          }
+          .title {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #19163d;
+          }
+        }
+      }
+    }
+    .actions {
+      margin-top: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 100;
+
+      button {
+        width: 157px;
+        height: 48px;
+      }
+      .payment {
+        color: #ffffff;
+        background: linear-gradient(135.54deg, #4fb4ed -0.96%, #343edf 100%);
+        border-radius: 24px;
+      }
+      .scan {
+        color: #466ee0;
+        border-radius: 24px;
+        border: 1px solid #466ee0;
+      }
+    }
+  }
+}

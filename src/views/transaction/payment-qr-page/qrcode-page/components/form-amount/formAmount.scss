@@ -1,0 +1,95 @@
+.wrapper-wallet {
+  width: 100%;
+  padding: 28px;
+  font-family: "Poppins";
+
+  .__header {
+    margin-bottom: 11px;
+
+    .nav-left {
+      .goback {
+        background: #ffffff;
+        box-shadow: 0px 1px 2px rgba(8, 15, 24, 0.1);
+        border-radius: 12px;
+        margin-right: 12px;
+        padding: 11px 14px;
+      }
+      h3 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        color: #202046;
+      }
+    }
+  }
+
+  .wrapper-form {
+    width: 100%;
+    .form-amount {
+      .title {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+        color: #000000;
+        margin-bottom: 16px;
+      }
+
+      .field-item {
+        background: #ffffff;
+        box-shadow: 0px 4px 10px rgba(56, 68, 251, 0.08);
+        -webkit-appearance: none;
+        border-radius: 12px;
+        padding: 16px;
+        width: 100%;
+        outline: none;
+        font-size: 16px;
+        padding-right: 45px;
+      }
+
+      .text-danger {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #eb5757;
+      }
+      .clear-input {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .action-group {
+        button {
+          padding: 12px 44.75px;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+          border-radius: 24px;
+        }
+
+        .btn-cancel {
+          color: #466ee0;
+          border: 1px solid #466ee0;
+          margin-right: 12px;
+        }
+
+        .btn-submit {
+          background: linear-gradient(135.54deg, #4fb4ed -0.96%, #343edf 100%);
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

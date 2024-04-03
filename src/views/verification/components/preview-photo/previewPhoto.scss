@@ -1,0 +1,41 @@
+.photos {
+  padding: 28px 27px;
+  background: #f6f7fe;
+  border-radius: 24px;
+  .__item {
+    margin-bottom: 24px;
+    h3 {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      color: #202046;
+    }
+    img {
+      border-radius: 16px;
+      margin-bottom: 8px;
+    }
+  }
+
+  .btn-retake {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    /* Primary */
+
+    color: #466ee0;
+  }
+}
+
+.btn-next {
+  background: linear-gradient(135.54deg, #4fb4ed -0.96%, #343edf 100%);
+  border-radius: 24px;
+  padding: 16px 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 65px 0;
+}
